@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Snap from './Snap';
+import Personal from './Personal';
+import Telus from './Telus';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Personal />
+    <Snap />
+    <Telus />
   </React.StrictMode>
 );
 
