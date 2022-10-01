@@ -1,6 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 
+const personalInfo = {
+  firstName: 'Gursh',
+  lastName: 'Singh',
+  email: 'gursh.dhanoa@gmail.com',
+  phoneNumber: '647-888-7946'
+};
+
+const workHistory = {
+  
+};
+
+
+
 function App() {
   return (
     <div className="App">
@@ -23,3 +36,6 @@ function App() {
 }
 
 export default App;
+
+
+//

@@ -10,9 +10,11 @@ import Telus from './Telus';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Personal />
-    <Snap />
-    <Telus />
+    <div>
+      <Personal />
+      <Snap />
+      <Telus />
+    </div>
   </React.StrictMode>
 );
 

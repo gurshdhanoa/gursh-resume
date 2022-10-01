@@ -25,29 +25,31 @@ const jobDetails = [
 function Snap(){
 
     return (
-        <div className="Snap">
-            <header className="Snap-header" color="#fff000">
-                <img src={logo} className="Snap-logo"></img>
-                <div className="Text-color">
-                <h1>
-                    {jobInfo.companyName}
-                </h1>
-                <h2>
-                    {jobInfo.title}
-                </h2>
-                <h3>
-                    {jobInfo.location}
-                </h3>
-                <h3>
-                    {jobInfo.tenure}
-                </h3>
-                <ul>
-                {jobDetails.map(item => {
-                    return <li>{item}</li>;
-                    })}
-                </ul>
-                </div>
-            </header>
+        <div className="bg-yellow-300">
+            <div className="flex h-screen">
+                <header className=" flex m-auto px-10" color="#fff000">
+                    <img src={logo} className="object-none px-7"></img>
+                    <div className="px-3">
+                        <h1 className="text-xl font-bold">
+                            {jobInfo.companyName}
+                        </h1>
+                        <h2 className="text-xl font-bold">
+                            {jobInfo.title}
+                        </h2>
+                        <h3 className="text-lg">
+                            {jobInfo.location}
+                        </h3>
+                        <h3 className="text-lg">
+                            {jobInfo.tenure}
+                        </h3>
+                        <ul className="pt-5 list-disc text-base">
+                        {jobDetails.map(item => {
+                            return <li>{item}</li>;
+                            })}
+                        </ul>
+                    </div>
+                </header>
+            </div>
         </div>
     )
 };

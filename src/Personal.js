@@ -1,4 +1,5 @@
 import React from "react";
+import './index.css';
 
 const personalInfo = {
     firstName: 'Gursh',
@@ -10,16 +11,18 @@ const personalInfo = {
 
 function Personal() {
     return(
-        <div>
-            <h1>
-                {personalInfo.firstName} {personalInfo.lastName}
-            </h1>
-            <h2>
-                {personalInfo.email}
-            </h2>
-            <h2>
-                {personalInfo.phoneNumber}
-            </h2>
+        <div className="flex h-screen">
+            <div className="m-auto">
+                <h1 className="">
+                    {personalInfo.firstName} {personalInfo.lastName}
+                </h1>
+                <h2>
+                    {personalInfo.email}
+                </h2>
+                <h2>
+                    {personalInfo.phoneNumber}
+                </h2>
+            </div>
         </div>
     )
 }

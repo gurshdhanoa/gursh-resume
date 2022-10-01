@@ -1,5 +1,6 @@
 import React from "react";
 import './Telus.css';
+import logo from './telus-logo.jpeg';
 
 const jobInfo = {
     companyName: "Telus Digital",
@@ -17,26 +18,31 @@ const jobDetails = [
 
 function Telus(){
     return(
-        <div className="Telus">
-            <header className="Telus-text">
-                <h1>
-                    {jobInfo.companyName}
-                </h1>
-                <h2>
-                    {jobInfo.title}
-                </h2>
-                <h4>
-                    {jobInfo.location}
-                </h4>
-                <h4>
-                    {jobInfo.tenure}
-                </h4>
-            </header>
-            <ul className="Telus-text">
-                {jobDetails.map(item => {
-                    return <li>{item}</li>;
-                })}
-            </ul>
+<div className="bg-purple-700">
+            <div className="flex h-screen">
+                <header className="flex m-auto px-10" color="#fff000">
+                <div className="px-3 text-white">
+                    <h1 className="text-xl font-bold">
+                        {jobInfo.companyName}
+                    </h1>
+                    <h2 className="text-xl font-bold">
+                        {jobInfo.title}
+                    </h2>
+                    <h3 className="text-lg">
+                        {jobInfo.location}
+                    </h3>
+                    <h3 className="text-lg">
+                        {jobInfo.tenure}
+                    </h3>
+                    <ul className="pt-5 list-disc text-base">
+                    {jobDetails.map(item => {
+                        return <li>{item}</li>;
+                        })}
+                    </ul>
+                </div>
+                <img src={logo} className="m-auto px-7"></img>
+                </header>
+            </div>
         </div>
     )
 }
