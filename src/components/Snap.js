@@ -1,6 +1,6 @@
 import React from "react";
-import "./Snap.css"
-import logo from './snapchat-logo.png';
+import "../Snap.css"
+import logo from '../snapchat-logo.png';
 
 const jobInfo = {
     companyName: "Snapchat",
@@ -25,30 +25,30 @@ const jobDetails = [
 function Snap(){
 
     return (
-        <div className="bg-yellow-300">
-            <div className="flex h-screen">
-                <header className=" flex m-auto px-10" color="#fff000">
-                    <img src={logo} className="object-none px-7"></img>
-                    <div className="px-3">
-                        <h1 className="text-xl font-bold">
+        <div className="Snap section fade-in-section is-visible">
+            <div className="">
+                <div className="grid grid-cols-2 pt-20">
+                    <img src={logo} className="object-none mx-auto"></img>
+                    <div className="pr-10 m-auto">
+                        <h1 className="text-xl font-extrabold">
                             {jobInfo.companyName}
                         </h1>
-                        <h2 className="text-xl font-bold">
+                        <h2 className="text-xl font-extrabold">
                             {jobInfo.title}
                         </h2>
-                        <h3 className="text-lg">
+                        <h3 className="text-lg font-semibold">
                             {jobInfo.location}
                         </h3>
-                        <h3 className="text-lg">
+                        <h3 className="text-lg font-semibold">
                             {jobInfo.tenure}
                         </h3>
-                        <ul className="pt-5 list-disc text-base">
+                        <ul className="pt-5 list-disc text-base font-semibold">
                         {jobDetails.map(item => {
                             return <li>{item}</li>;
                             })}
                         </ul>
                     </div>
-                </header>
+                </div>
             </div>
         </div>
     )

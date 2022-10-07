@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
+
 const personalInfo = {
   firstName: 'Gursh',
   lastName: 'Singh',
@@ -16,7 +17,7 @@ const workHistory = {
 
 function App() {
   return (
-    <div className="App">
+    <div className="App scroll-container">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

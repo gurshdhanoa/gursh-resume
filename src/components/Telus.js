@@ -1,6 +1,6 @@
 import React from "react";
-import './Telus.css';
-import logo from './telus-logo.jpeg';
+// import './Telus.css';
+import logo from '../telus-logo.jpeg';
 
 const jobInfo = {
     companyName: "Telus Digital",
@@ -18,7 +18,7 @@ const jobDetails = [
 
 function Telus(){
     return(
-<div className="bg-purple-700">
+        <div className="bg-purple-700 section">
             <div className="flex h-screen">
                 <header className="flex m-auto px-10" color="#fff000">
                 <div className="px-3 text-white">
@@ -28,10 +28,10 @@ function Telus(){
                     <h2 className="text-xl font-bold">
                         {jobInfo.title}
                     </h2>
-                    <h3 className="text-lg">
+                    <h3 className="text-lg font-semibold">
                         {jobInfo.location}
                     </h3>
-                    <h3 className="text-lg">
+                    <h3 className="text-lg font-semibold">
                         {jobInfo.tenure}
                     </h3>
                     <ul className="pt-5 list-disc text-base">
@@ -48,5 +48,3 @@ function Telus(){
 }
 
 export default Telus;
-
-
