@@ -1,6 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import { useRef } from 'react';
+import useScrollSnap from 'react-use-scroll-snap'
+import ScrollTrigger from 'react-scroll-trigger';
 
+import Snap from './components/Snap.js';
+import Personal from './components/Personal.js';
+import Telus from './components/Telus.js';
+import Footer from './Footer.js';
 
 const personalInfo = {
   firstName: 'Gursh',
@@ -10,28 +17,16 @@ const personalInfo = {
 };
 
 const workHistory = {
-  
 };
 
-
-
 function App() {
+
   return (
-    <div className="App scroll-container">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={'scroll-container'}>
+      <Personal/>
+      <Snap/>
+      <Telus/>
+      <Footer/>
     </div>
   );
 }

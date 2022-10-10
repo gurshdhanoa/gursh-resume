@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -41,16 +42,11 @@ code {
   scroll-snap-align: center;
 }
 
-.fade-in-section{
-  opacity: 1;
-  transform: translateY(20vh);
-  visibility: visible;
-  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
-  will-change: opacity, visibility;
+/* .visible, .invisible {
+  opacity: 0.0;
+  transition: opacity 0.5s ease;
 }
 
-.fade-in-section.is-visible {
-  opacity: 1;
-  transform: none;
-  visibility: visible;
-}
+.visible {
+  opacity: 1.0;
+} */

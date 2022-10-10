@@ -14,7 +14,7 @@ function Personal() {
 
     return(
             <div className="flex section">
-                <div className="m-auto">
+                <div className="m-auto intro-animation">
                     <h1 className="text-6xl font-bold text-center" id="header-text">
                         {personalInfo.firstName} {personalInfo.lastName}
                     </h1>

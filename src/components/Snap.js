@@ -1,6 +1,7 @@
 import React from "react";
 import "../Snap.css"
 import logo from '../snapchat-logo.png';
+import gsap from "gsap";
 
 const jobInfo = {
     companyName: "Snapchat",
@@ -21,15 +22,53 @@ const jobDetails = [
     "Lead efforts to test and fix accessibility and localization issues across all Bitmoji Platforms"
 ]
 
-
 function Snap(){
+
+    const { useEffect } = React;
+
+
+    useEffect(() => {
+      gsap.to(".text-container", {
+        x: -100,
+        duration: 1.5,
+        ease: "none",
+        delay: 0.5,
+        scrollTrigger: {
+          trigger: ".Snap"
+        }
+      });
+    }, [])
+
+    // useEffect(() => {
+    //     gsap.to(".snap-logo", {
+    //       x: 100,
+    //       duration: 1.5,
+    //       ease: "none",
+    //       delay: 0.5,
+    //       scrollTrigger: {
+    //         trigger: ".Snap"
+    //       }
+    //     });
+    //   })
+
+    useEffect(() => {
+        gsap.to(".snap-logo", {
+            x: 100,
+            duration: 1.5,
+            ease: "none",
+            delay: 0.5,
+            scrollTrigger: {
+                trigger:".Snap"
+            }
+        });
+    })
 
     return (
         <div className="Snap section fade-in-section is-visible">
             <div className="">
-                <div className="grid grid-cols-2 pt-20">
-                    <img src={logo} className="object-none mx-auto"></img>
-                    <div className="pr-10 m-auto">
+                <div className="grid grid-cols-2 pt-18">
+                    <img src={logo} className="snap-logo object-none mx-auto"></img>
+                    <div className="text-container pr-10 m-auto">
                         <h1 className="text-xl font-extrabold">
                             {jobInfo.companyName}
                         </h1>

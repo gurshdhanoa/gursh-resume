@@ -1,4 +1,6 @@
 import React from "react";
+import gsap from "gsap";
+import { useEffect } from "react";
 // import './Telus.css';
 import logo from '../telus-logo.jpeg';
 
@@ -17,11 +19,37 @@ const jobDetails = [
 ]
 
 function Telus(){
+
+    useEffect(() => {
+        gsap.to(".telus-logo", {
+            x: -100,
+            duration: 1.5,
+            ease: "none",
+            delay: 0.5,
+            scrollTrigger: {
+                trigger: ".telus"
+            }
+        });
+    })
+
+    useEffect(() => {
+        gsap.to(".text-continer", {
+            x: 100,
+            duration: 1.5,
+            ease: "none",
+            delay: 0.5,
+            scrollTrigger: {
+                trigger: ".telus"
+            }
+        });
+    })
+
+    
     return(
-        <div className="bg-purple-700 section">
+        <div className="bg-purple-700 section telus">
             <div className="flex h-screen">
                 <header className="flex m-auto px-10" color="#fff000">
-                <div className="px-3 text-white">
+                <div className="text-container px-3 text-white">
                     <h1 className="text-xl font-bold">
                         {jobInfo.companyName}
                     </h1>
@@ -40,7 +68,7 @@ function Telus(){
                         })}
                     </ul>
                 </div>
-                <img src={logo} className="m-auto px-7"></img>
+                <img src={logo} className="telus-logo m-auto px-7"></img>
                 </header>
             </div>
         </div>
