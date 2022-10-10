@@ -7,7 +7,7 @@ import { render } from "@testing-library/react";
 
 function WorkHistory(logo, employerInfo, workResponsibilties, bgColor) {
 
-
+//a test commit
 
     return(
         <div className="section fade-in-section is-visible">
@@ -32,6 +32,7 @@ function WorkHistory(logo, employerInfo, workResponsibilties, bgColor) {
                             return <li>{item}</li>;
                             })}
                         </ul>
+                        
                     </div>
                 </div>
             </div>
