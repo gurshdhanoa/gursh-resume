@@ -19,37 +19,12 @@ const jobDetails = [
 ]
 
 function Telus(){
-
-    useEffect(() => {
-        gsap.to(".telus-logo", {
-            x: -100,
-            duration: 1.5,
-            ease: "none",
-            delay: 0.5,
-            scrollTrigger: {
-                trigger: ".telus"
-            }
-        });
-    })
-
-    useEffect(() => {
-        gsap.to(".text-continer", {
-            x: 100,
-            duration: 1.5,
-            ease: "none",
-            delay: 0.5,
-            scrollTrigger: {
-                trigger: ".telus"
-            }
-        });
-    })
-
     
     return(
         <div className="bg-purple-700 section telus">
             <div className="flex h-screen">
                 <header className="flex m-auto px-10" color="#fff000">
-                <div className="text-container px-3 text-white">
+                <div className="text-container-telus px-3 text-white">
                     <h1 className="text-xl font-bold">
                         {jobInfo.companyName}
                     </h1>

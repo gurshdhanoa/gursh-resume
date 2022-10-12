@@ -1,9 +1,5 @@
 import React from "react";
 
-const Header = "Test";
-const subText = "";
-const contactInfo = "";
-
 function Footer(){
 
     return(

@@ -1,18 +1,14 @@
-import logo from './snapchat-logo.png';
+import snapLogo from './snapchat-logo.png';
+import telusLogo from './telus-logo.jpeg'
 import './App.css';
-import { useRef } from 'react';
-import useScrollSnap from 'react-use-scroll-snap'
-import ScrollTrigger from 'react-scroll-trigger';
 import React, { Component } from 'react';
+
 import { snapResumeDetails, telusResumeDetails } from './resumeDetails';
-
-
-import Snap from './components/Snap.js';
 import Personal from './components/Personal.js';
-import Telus from './components/Telus.js';
-import Footer from './Footer.js';
 import WorkHistory from './components/WorkHistory.js';
-import { render } from '@testing-library/react';
+import Snap from './components/Snap';
+import Telus from './components/Telus';
+
 
 class App extends Component {
   render() {
@@ -20,15 +16,14 @@ class App extends Component {
   return (
     <div className={'scroll-container'}>
       <Personal/>
-      {/* <Snap/> */}
-      {/* <Telus/>  */}
-      <WorkHistory jobDeets={snapResumeDetails.JobInfo} workDeets={snapResumeDetails.JobDetails} logos={logo} bgColor="#fff000"/>
-      <WorkHistory jobDeets={telusResumeDetails.jobInfo} workDeets={telusResumeDetails.jobDetails} logos={logo} bgColor="#7B47BB"/>
+      <Snap/>
+      <Telus/> 
+      {/* <WorkHistory jobDeets={snapResumeDetails.JobInfo} workDeets={snapResumeDetails.JobDetails} logos={snapLogo} bgColor="#fff000" logo-class='snapLogoClass' textContainer='snap-text-container' mainContainer='snap-main-container' logoContainer="snap-logo-container"/>
+      <WorkHistory jobDeets={telusResumeDetails.jobInfo} workDeets={telusResumeDetails.jobDetails} logos={telusLogo} bgColor="#7B47BB" textColor='text-white' textContainer='telus-text-container' mainContainer="telus-main-container" logoContainer="telus-logo-container"/> */}
     </div>
   );
 }
 };
-
 
 
 //update background color

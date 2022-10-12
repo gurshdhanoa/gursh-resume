@@ -1,6 +1,6 @@
 import React from "react";
 import '../index.css';
-import useScrollSnap from 'react-use-scroll-snap';
+
 
 const personalInfo = {
     firstName: 'Gursh',
@@ -9,9 +9,7 @@ const personalInfo = {
     phoneNumber: '647-888-7946'
   };
 
-
 function Personal() {
-
     return(
             <div className="flex section">
                 <div className="m-auto intro-animation">

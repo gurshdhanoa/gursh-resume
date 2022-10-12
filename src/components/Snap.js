@@ -2,6 +2,8 @@ import React from "react";
 import "../Snap.css"
 import logo from '../snapchat-logo.png';
 import gsap from "gsap";
+import useAnimation from "./animation";
+
 
 const jobInfo = {
     companyName: "Snapchat",
@@ -24,47 +26,47 @@ const jobDetails = [
 
 function Snap(){
 
-    const { useEffect } = React;
+    // const { useEffect } = React;
 
+    // useEffect(() => {
+    //   gsap.to(".text-container", {
+    //     x: -100,
+    //     duration: 1.5,
+    //     ease: "none",
+    //     delay: 0.5,
+    //     scrollTrigger: {
+    //       trigger: ".Snap"
+    //     }
+    //   });
+    // }, [])
 
-    useEffect(() => {
-      gsap.to(".text-container", {
-        x: -100,
-        duration: 1.5,
-        ease: "none",
-        delay: 0.5,
-        scrollTrigger: {
-          trigger: ".Snap"
-        }
-      });
-    }, [])
+    // // useEffect(() => {
+    // //     gsap.to(".snap-logo", {
+    // //       x: 100,
+    // //       duration: 1.5,
+    // //       ease: "none",
+    // //       delay: 0.5,
+    // //       scrollTrigger: {
+    // //         trigger: ".Snap"
+    // //       }
+    // //     });
+    // //   })
 
     // useEffect(() => {
     //     gsap.to(".snap-logo", {
-    //       x: 100,
-    //       duration: 1.5,
-    //       ease: "none",
-    //       delay: 0.5,
-    //       scrollTrigger: {
-    //         trigger: ".Snap"
-    //       }
+    //         x: 100,
+    //         duration: 1.5,
+    //         ease: "none",
+    //         delay: 0.5,
+    //         scrollTrigger: {
+    //             trigger:".Snap"
+    //         }
     //     });
-    //   })
-
-    useEffect(() => {
-        gsap.to(".snap-logo", {
-            x: 100,
-            duration: 1.5,
-            ease: "none",
-            delay: 0.5,
-            scrollTrigger: {
-                trigger:".Snap"
-            }
-        });
-    })
+    // })
 
     return (
         <div className="Snap section fade-in-section is-visible">
+            {useAnimation(1.5, -60, '.text-container', '.Snap')}{useAnimation(1.5, 60, '.snap-logo', 'Snap')}
             <div className="">
                 <div className="grid grid-cols-2 pt-18">
                     <img src={logo} className="snap-logo object-none mx-auto"></img>
