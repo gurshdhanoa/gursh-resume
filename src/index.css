@@ -16,7 +16,23 @@ code {
     monospace;
 }
 
-.scroll-container{
+.container {
+  overflow-y: scroll;
+  height: 100vh;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
+}
+/* .scroll-container{
   position: relative;
   overflow-y: auto;
   overscroll-behavior-y: contain;
@@ -30,9 +46,9 @@ code {
 
 .scroll-area{
   scroll-snap-align: start ;
-}
+} */
 
-.section{
+/* .section{
   height: 100vh;
   width: 100%;
   display: flex;
@@ -40,7 +56,7 @@ code {
   align-items: center;
   position: relative;
   scroll-snap-align: center;
-}
+} */
 
 /* .visible, .invisible {
   opacity: 0.0;

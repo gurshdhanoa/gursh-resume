@@ -20,12 +20,11 @@ const jobDetails = [
 ]
 
 function Telus(){
-    // const telusAnimationText = new useAnimation(1.5, 60, '.text-container', '.telus')
-    // const telusAnimationGraphic = new useAnimation(1.5, -60, '.telus-logo', '.telus')
     return(
         <div className="bg-purple-700 section telus">
+            {useAnimation(1.5, 60, '.text-container-telus', '.test-telus')}{useAnimation(1.5, -60, '.telus-logo', '.test-telus')}
             <div className="flex h-screen">
-                <header className="flex m-auto px-10" color="#fff000">
+                <header className="flex m-auto px-10 test-telus" color="#fff000">
                 <div className="text-container-telus px-3 text-white">
                     <h1 className="text-xl font-bold">
                         {jobInfo.companyName}

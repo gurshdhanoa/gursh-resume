@@ -1,7 +1,7 @@
-import React from 'react';
-import gsap from 'gsap';
 import { useEffect } from 'react';
-import ScrollTrigger from 'gsap/ScrollTrigger';
+import { gsap, ScrollTrigger } from "gsap/all";
+gsap.registerPlugin(ScrollTrigger);
+
 
 function useAnimation(durationValue, xValue, movingClass, triggerClass) {
 
@@ -12,7 +12,8 @@ function useAnimation(durationValue, xValue, movingClass, triggerClass) {
               ease: "none",
               delay: 0.5,
               scrollTrigger: {
-                trigger: triggerClass
+                trigger: triggerClass,
+                // toggleActions: 'play complete restart reverse'
               }
             });
           }, [])

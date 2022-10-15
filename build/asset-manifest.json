@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aca350a1.css",
+    "main.js": "/static/js/main.b73259da.js",
+    "static/js/787.c376c5f0.chunk.js": "/static/js/787.c376c5f0.chunk.js",
+    "static/media/snapchat-logo.png": "/static/media/snapchat-logo.a0de7a3cf9499ed10d01.png",
+    "index.html": "/index.html",
+    "main.aca350a1.css.map": "/static/css/main.aca350a1.css.map",
+    "main.b73259da.js.map": "/static/js/main.b73259da.js.map",
+    "787.c376c5f0.chunk.js.map": "/static/js/787.c376c5f0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aca350a1.css",
+    "static/js/main.b73259da.js"
+  ]
+}

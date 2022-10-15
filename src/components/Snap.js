@@ -3,6 +3,7 @@ import "../Snap.css"
 import logo from '../snapchat-logo.png';
 import gsap from "gsap";
 import useAnimation from "./animation";
+import useScrollSnap from "./scrollsnap";
 
 
 const jobInfo = {
@@ -28,11 +29,11 @@ function Snap(){
 
     return (
         <div className="Snap section fade-in-section is-visible">
-            {useAnimation(1.5, -60, '.text-container', '.Snap')}{useAnimation(1.5, 60, '.snap-logo', 'Snap')}
+            {useAnimation(1.5, -60, '.text-container-snap', '.Snap')}{useAnimation(1.5, 60, '.snap-logo', '.Snap')}
             <div className="">
                 <div className="grid grid-cols-2 pt-18">
                     <img src={logo} className="snap-logo object-none mx-auto"></img>
-                    <div className="text-container pr-10 m-auto">
+                    <div className="text-container-snap pr-10 m-auto">
                         <h1 className="text-xl font-extrabold">
                             {jobInfo.companyName}
                         </h1>
