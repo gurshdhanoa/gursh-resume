@@ -16,10 +16,10 @@ class App extends Component {
   return (
     <div className={'scroll-container'}>
       <Personal/>
-      {/* <Snap/>
-      <Telus/>  */}
-      <WorkHistory jobDeets={snapResumeDetails.JobInfo} workDeets={snapResumeDetails.JobDetails} logos={snapLogo} bgColor="#fff000" logo-class='snapLogoClass' textContainer='snap-text-container' mainContainer='snap-main-container' logoContainer="snap-logo-container"/>
-      <WorkHistory jobDeets={telusResumeDetails.jobInfo} workDeets={telusResumeDetails.jobDetails} logos={telusLogo} bgColor="#7B47BB" textColor='text-white' textContainer='telus-text-container' mainContainer="telus-main-container" logoContainer="telus-logo-container"/>
+      <Snap/>
+      <Telus/> 
+      {/* <WorkHistory jobDeets={snapResumeDetails.JobInfo} workDeets={snapResumeDetails.JobDetails} logos={snapLogo} bgColor="#fff000" logo-class='snapLogoClass' textContainer='snap-text-container' mainContainer='snap-main-container' logoContainer="snap-logo-container"/>
+      <WorkHistory jobDeets={telusResumeDetails.jobInfo} workDeets={telusResumeDetails.jobDetails} logos={telusLogo} bgColor="#7B47BB" textColor='text-white' textContainer='telus-text-container' mainContainer="telus-main-container" logoContainer="telus-logo-container"/> */}
     </div>
   );
 }
