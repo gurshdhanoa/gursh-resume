@@ -16,7 +16,7 @@ function useScrollSnap(scrollerClass, mainViewClass, triggerClass) {
                 trigger: triggerClass,
                 scroller:  mainViewClass,
                 start: 'center 55%',
-                markers: true,
+                markers: false,
                 toggleActions: 'play complete restart reverse'
           }
         });
