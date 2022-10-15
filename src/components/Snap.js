@@ -26,44 +26,6 @@ const jobDetails = [
 
 function Snap(){
 
-    // const { useEffect } = React;
-
-    // useEffect(() => {
-    //   gsap.to(".text-container", {
-    //     x: -100,
-    //     duration: 1.5,
-    //     ease: "none",
-    //     delay: 0.5,
-    //     scrollTrigger: {
-    //       trigger: ".Snap"
-    //     }
-    //   });
-    // }, [])
-
-    // // useEffect(() => {
-    // //     gsap.to(".snap-logo", {
-    // //       x: 100,
-    // //       duration: 1.5,
-    // //       ease: "none",
-    // //       delay: 0.5,
-    // //       scrollTrigger: {
-    // //         trigger: ".Snap"
-    // //       }
-    // //     });
-    // //   })
-
-    // useEffect(() => {
-    //     gsap.to(".snap-logo", {
-    //         x: 100,
-    //         duration: 1.5,
-    //         ease: "none",
-    //         delay: 0.5,
-    //         scrollTrigger: {
-    //             trigger:".Snap"
-    //         }
-    //     });
-    // })
-
     return (
         <div className="Snap section fade-in-section is-visible">
             {useAnimation(1.5, -60, '.text-container', '.Snap')}{useAnimation(1.5, 60, '.snap-logo', 'Snap')}

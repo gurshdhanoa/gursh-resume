@@ -1,9 +1,4 @@
-import gsap from "gsap";
-import { useEffect } from "react";
-import { render } from "@testing-library/react";
 import React, { Component } from 'react';
-
-import useAnimation from "./animation";
 
 
 function WorkHistory(props) {

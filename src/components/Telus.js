@@ -3,6 +3,7 @@ import gsap from "gsap";
 import { useEffect } from "react";
 // import './Telus.css';
 import logo from '../telus-logo.jpeg';
+import useAnimation from "./animation";
 
 const jobInfo = {
     companyName: "Telus Digital",
@@ -19,7 +20,8 @@ const jobDetails = [
 ]
 
 function Telus(){
-    
+    // const telusAnimationText = new useAnimation(1.5, 60, '.text-container', '.telus')
+    // const telusAnimationGraphic = new useAnimation(1.5, -60, '.telus-logo', '.telus')
     return(
         <div className="bg-purple-700 section telus">
             <div className="flex h-screen">
