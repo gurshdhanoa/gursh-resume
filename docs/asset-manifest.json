@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.01822e04.css",
-    "main.js": "/static/js/main.0b2ba02f.js",
+    "main.css": "/static/css/main.292ca091.css",
+    "main.js": "/static/js/main.75577f7e.js",
     "static/js/787.c376c5f0.chunk.js": "/static/js/787.c376c5f0.chunk.js",
+    "static/media/Artboard1.png": "/static/media/Artboard1.dab88ea4cd90d2687694.png",
     "static/media/telus-logo.jpeg": "/static/media/telus-logo.8300bd2f66d64c2ac639.jpeg",
     "static/media/snapchat-logo.png": "/static/media/snapchat-logo.a0de7a3cf9499ed10d01.png",
     "index.html": "/index.html",
-    "main.01822e04.css.map": "/static/css/main.01822e04.css.map",
-    "main.0b2ba02f.js.map": "/static/js/main.0b2ba02f.js.map",
+    "main.292ca091.css.map": "/static/css/main.292ca091.css.map",
+    "main.75577f7e.js.map": "/static/js/main.75577f7e.js.map",
     "787.c376c5f0.chunk.js.map": "/static/js/787.c376c5f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01822e04.css",
-    "static/js/main.0b2ba02f.js"
+    "static/css/main.292ca091.css",
+    "static/js/main.75577f7e.js"
   ]
 }

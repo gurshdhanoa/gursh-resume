@@ -1,9 +1,8 @@
 import React from "react";
-import gsap from "gsap";
-import { useEffect } from "react";
-// import './Telus.css';
+
 import logo from '../telus-logo.jpeg';
 import useAnimation from "./animation";
+
 
 const jobInfo = {
     companyName: "Telus Digital",
@@ -19,12 +18,14 @@ const jobDetails = [
     "Quality Evangelist, championing quality efforts across the development and management team.",
 ]
 
+
 function Telus(){
     return(
         <div className="bg-purple-700 section telus">
-            {useAnimation(1.5, 60, '.text-container-telus', '.test-telus')}{useAnimation(1.5, -60, '.telus-logo', '.test-telus')}
-            <div className="flex h-screen">
+            {useAnimation(1.5, 0, 60, '.text-container-telus', '.test-telus')}
+            <div className="flex">
                 <header className="flex m-auto px-10 test-telus" color="#fff000">
+                <img src={logo} className="telus-logo m-auto px-7"></img>
                 <div className="text-container-telus px-3 text-white">
                     <h1 className="text-xl font-bold">
                         {jobInfo.companyName}
@@ -38,13 +39,12 @@ function Telus(){
                     <h3 className="text-lg font-semibold">
                         {jobInfo.tenure}
                     </h3>
-                    <ul className="pt-5 list-disc text-base">
+                    <ul className="pt-5 list-disc text-base font-semibold">
                     {jobDetails.map(item => {
                         return <li>{item}</li>;
                         })}
                     </ul>
                 </div>
-                <img src={logo} className="telus-logo m-auto px-7"></img>
                 </header>
             </div>
         </div>

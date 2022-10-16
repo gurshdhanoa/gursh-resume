@@ -9,6 +9,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+
 }
 
 code {
@@ -17,7 +21,7 @@ code {
 }
 
 .container {
-  overflow-y: scroll;
+  /* overflow: scroll; */
   height: 100vh;
   scroll-snap-type: mandatory;
   scroll-snap-points-y: repeat(100vh);
@@ -29,9 +33,37 @@ code {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width:100vw;
   scroll-snap-align: start;
-  position: relative;
+  position: relative; 
 }
+
+.Telus {
+  background-color: purple;
+}
+
+
+.Snap {
+  background-color: #fff000;
+}
+
+.Snap-header {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-portrait {
+  /* max-width: 100vh;
+  max-height: 100vw; */
+  background-image: url("Artboard1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
 /* .scroll-container{
   position: relative;
   overflow-y: auto;

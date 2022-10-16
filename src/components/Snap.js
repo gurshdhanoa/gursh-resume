@@ -1,9 +1,6 @@
 import React from "react";
-import "../Snap.css"
 import logo from '../snapchat-logo.png';
-import gsap from "gsap";
 import useAnimation from "./animation";
-import useScrollSnap from "./scrollsnap";
 
 
 const jobInfo = {
@@ -25,11 +22,11 @@ const jobDetails = [
     "Lead efforts to test and fix accessibility and localization issues across all Bitmoji Platforms"
 ]
 
-function Snap(){
 
+function Snap(){
     return (
-        <div className="Snap section fade-in-section is-visible">
-            {useAnimation(1.5, -60, '.text-container-snap', '.Snap')}{useAnimation(1.5, 60, '.snap-logo', '.Snap')}
+        <div className="Snap section">
+            {useAnimation(1.5, -60,0, '.text-container-snap', '.Snap')}{useAnimation(1.5, 60,0, '.snap-logo', '.Snap')}
             <div className="">
                 <div className="grid grid-cols-2 pt-18">
                     <img src={logo} className="snap-logo object-none mx-auto"></img>

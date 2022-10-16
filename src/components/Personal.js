@@ -9,6 +9,7 @@ const personalInfo = {
     phoneNumber: '647-888-7946'
   };
 
+  
 function Personal() {
     return(
             <div className="flex section">
