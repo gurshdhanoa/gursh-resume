@@ -25,12 +25,14 @@ const jobDetails = [
 
 function Snap(){
     return (
-        <div className="Snap section">
-            {useAnimation(1.5, -60,0, '.text-container-snap', '.Snap')}{useAnimation(1.5, 60,0, '.snap-logo', '.Snap')}
+        <div className="main-container snap section">
+            <div className="animation-container">
+                {useAnimation(1.5, 0, -60, '.text-container', '.Snap')}{useAnimation(1.5,0 ,-60, '.snap-logo', '.Snap')}
+            </div>
             <div className="">
-                <div className="grid grid-cols-2 pt-18">
-                    <img src={logo} className="snap-logo object-none mx-auto"></img>
-                    <div className="text-container-snap pr-10 m-auto">
+                <div className="main-content pt-24">
+                    <img src={logo} className="snap-logo object-none m-auto"></img>
+                    <div className="text-container m-auto">
                         <h1 className="text-xl font-extrabold">
                             {jobInfo.companyName}
                         </h1>

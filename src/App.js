@@ -9,7 +9,7 @@ import Portrait from './components/Portrait';
 function App () {
   return ( 
     <div className={'container'}>
-      <Personal />
+      <Personal/>
       <Snap />
       <Telus/> 
       <Portrait />
