@@ -24,7 +24,7 @@ function Telus(){
         <div className="bg-purple-700 main-container main-container-telus">
             {useAnimation(1.5, 0, 50, '.text-container-telus', '.test-telus')}{useAnimation(1.5, 0, 50, '.telus-logo', '.test-telus')}
             <div className="main-content pt-20">
-                <img src={logo} className="telus-logo m-auto px-7"></img>
+                <img src={logo} className="scale-75 telus-logo m-auto px-7"></img>
                 <div className="text-container-telus px-3 text-white">
                     <h1 className="text-xl font-bold">
                         {jobInfo.companyName}
