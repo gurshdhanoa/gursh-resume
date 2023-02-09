@@ -3,7 +3,6 @@ import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 
 //external
-import useScrollSnap from 'react-use-scroll-snap';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
