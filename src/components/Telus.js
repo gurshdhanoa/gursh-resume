@@ -1,5 +1,4 @@
 import React from "react";
-
 import logo from '../telus-logo.jpeg';
 import useAnimation from "./animation";
 
@@ -20,33 +19,37 @@ const jobDetails = [
 
 
 function Telus(){
-    return(
-        <div className="bg-purple-700 main-container main-container-telus">
-            {useAnimation(1.5, 0, 50, '.text-container-telus', '.test-telus')}{useAnimation(1.5, 0, 50, '.telus-logo', '.test-telus')}
-            <div className="main-content pt-20">
-                <img src={logo} className="scale-75 telus-logo m-auto px-7"></img>
-                <div className="text-container-telus px-3 text-white">
-                    <h1 className="text-xl font-bold">
-                        {jobInfo.companyName}
-                    </h1>
-                    <h2 className="text-xl font-bold">
-                        {jobInfo.title}
-                    </h2>
-                    <h3 className="text-lg font-semibold">
-                        {jobInfo.location}
-                    </h3>
-                    <h3 className="text-lg font-semibold">
-                        {jobInfo.tenure}
-                    </h3>
-                    <ul className="pt-5 list-disc text-base font-semibold">
-                    {jobDetails.map(item => {
-                        return <li>{item}</li>;
-                        })}
-                    </ul>
+    return (
+        <div className="main-container section bg-purple-700">
+            <div className="animation-container">
+                {useAnimation(1.5, 0, -60, '.text-container', '.Snap')}{useAnimation(1.5,0 ,-60, '.snap-logo', '.Snap')}
+            </div>
+            <div className="">
+                <div className="main-content pt-24 text-slate-200 ">
+                    <img src={logo} className="snap-logo object-none m-auto scale-75"></img>
+                    <div className="text-container m-auto">
+                        <h1 className="text-xl font-extrabold">
+                            {jobInfo.companyName}
+                        </h1>
+                        <h2 className="text-xl font-extrabold">
+                            {jobInfo.title}
+                        </h2>
+                        <h3 className="text-lg font-semibold">
+                            {jobInfo.location}
+                        </h3>
+                        <h3 className="text-lg font-semibold">
+                            {jobInfo.tenure}
+                        </h3>
+                        <ul className="pt-5 list-disc text-base font-semibold">
+                        {jobDetails.map(item => {
+                            return <li>{item}</li>;
+                            })}
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     )
-}
+};
 
 export default Telus;

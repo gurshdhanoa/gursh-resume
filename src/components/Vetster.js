@@ -19,7 +19,7 @@ const jobDetails = [
 ]
 
 
-function Snap(){
+function Vetster(){
     return (
         <div className="main-container section bg-indigo-800">
             <div className="animation-container">
@@ -53,4 +53,4 @@ function Snap(){
     )
 };
 
-export default Snap;
+export default Vetster;
