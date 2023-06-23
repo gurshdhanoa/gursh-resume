@@ -1,5 +1,6 @@
 import React from "react";
 import '../index.css';
+import Portrait from "../Artboard1.png";
 
 
 const personalInfo = {
@@ -13,6 +14,7 @@ const personalInfo = {
 
 function Personal() {
     return(
+        <div>
             <div className="flex personal-container">
                 <div className="m-auto">
                     <h1 className="text-6xl font-bold text-center" id="header-text">
@@ -29,6 +31,7 @@ function Personal() {
                     </h2>
                 </div>
             </div>
+        </div>
         )
     }
 
