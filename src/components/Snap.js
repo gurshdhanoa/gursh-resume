@@ -1,6 +1,5 @@
 import React from "react";
 import logo from '../snapchat-logo.png';
-import useAnimation from "./animation";
 
 
 const jobInfo = {
@@ -26,9 +25,6 @@ const jobDetails = [
 function Snap(){
     return (
         <div className="main-container snap section">
-            <div className="animation-container">
-                {useAnimation(1.5, 0, -60, '.text-container', '.Snap')}{useAnimation(1.5,0 ,-60, '.snap-logo', '.Snap')}
-            </div>
             <div className="">
                 <div className="w-5/6 main-content pt-24">
                     <img src={logo} className="snap-logo object-none m-auto"></img>

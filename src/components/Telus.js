@@ -1,6 +1,5 @@
 import React from "react";
 import logo from '../telus-logo.jpeg';
-import useAnimation from "./animation";
 
 
 const jobInfo = {
@@ -21,9 +20,6 @@ const jobDetails = [
 function Telus(){
     return (
         <div className="main-container section bg-purple-700">
-            <div className="animation-container">
-                {useAnimation(1.5, 0, -60, '.text-container', '.Snap')}{useAnimation(1.5,0 ,-60, '.snap-logo', '.Snap')}
-            </div>
             <div className="">
                 <div className="w-5/6 main-content pt-24 text-slate-200 ">
                     <img src={logo} className="snap-logo object-none m-auto scale-75"></img>

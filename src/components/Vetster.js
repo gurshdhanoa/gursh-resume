@@ -1,6 +1,5 @@
 import React from "react";
 import logo from '../vetster-logo.png';
-import useAnimation from "./animation";
 
 
 const jobInfo = {
@@ -22,9 +21,6 @@ const jobDetails = [
 function Vetster(){
     return (
         <div className="main-container section bg-indigo-800">
-            <div className="animation-container">
-                {useAnimation(1.5, 0, -60, '.text-container', '.Snap')}{useAnimation(1.5,0 ,-60, '.snap-logo', '.Snap')}
-            </div>
             <div className="">
                 <div className="w-5/6 mx-auto main-content pt-24 text-slate-200 ">
                     <img src={logo} className="snap-logo object-none m-auto scale-50"></img>
@@ -42,8 +38,8 @@ function Vetster(){
                             {jobInfo.tenure}
                         </h3>
                         <ul className="pt-5 list-disc text-base font-semibold">
-                        {jobDetails.map(item => {
-                            return <li>{item}</li>;
+                        {jobDetails.map((item, index) => {
+                            return <li key={index}>{item}</li>;
                             })}
                         </ul>
                     </div>
