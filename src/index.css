@@ -20,6 +20,23 @@ code {
     monospace;
 }
 
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100%;
+}
+
+.child {
+  scroll-snap-align: start;
+  height: 100vh;
+  width: 100%;
+}
+
+.wellchat-logo{
+  
+}
+
 .snap {
   background-color: #fff000;
 }
