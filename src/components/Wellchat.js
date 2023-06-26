@@ -9,11 +9,11 @@ import logo from '../images/wellchat-logo.png';
 
 export default function WellChat() {
   return (
-    <div className="main-container section wellchat-background bg-purple-200 px-4">
+    <div className="main-container section wellchat-background bg-purple-200 pt-4">
         <span className="">
-        <img src={logo} className="w-1/2 lg:w-1/6 h-auto object-contain m-auto pt-5"></img>
+        <img src={logo} className="w-2/5 lg:w-1/6 h-auto object-contain m-auto"></img>
             <p className="text-2xl font-bold text-center mt-4">Founder, Developer & Designer</p>
-            <h2 className="text-center font-medium text-slate-800" id="job-title">Wellchat is an AI-powered wellness chatbot application targetting the most important components of wellbeing: Mental Health, Sleep and Social Skills</h2>
+            <h2 className="text-center text-sm font-medium text-slate-800" id="job-title">Wellchat is an AI-powered wellness chatbot application targetting the most important components of wellbeing: Mental Health, Sleep and Social Skills</h2>
         </span>
           <div className="flex justify-center">
             <img src={appDemo} className="m-auto lg:w-1/4 h-auto object-contain"/>
