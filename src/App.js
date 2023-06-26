@@ -13,7 +13,6 @@ function App () {
       <div className="child"><Wellchat/></div>
       <div className="child"><Vetster/></div>
       <div className="child"><Snap /></div>
-      <div className="child"><Telus/></div> 
       <div className="child"><Portrait /></div>
     </div>
    );

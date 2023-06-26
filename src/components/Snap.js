@@ -4,7 +4,7 @@ import logo from '../snapchat-logo.png';
 
 const jobInfo = {
     companyName: "Snapchat",
-    title: "QA Engineering Lead",
+    title: "Quality Engineering Lead",
     location: "Toronto, ON",
     tenure: "Jan 2019 - September 2022",
 }
@@ -21,13 +21,21 @@ const jobDetails = [
     "Lead efforts to test and fix accessibility and localization issues across all Bitmoji Platforms"
 ]
 
+const achievements = [
+    "0 production hot fixes, last 4 quarters",
+    "Built Custom Bitmoji Avatar facial features comparison test framework. ",
+    "100% new feature quality health, last 2 quarters.",
+    "Test Engineer, Release Manager, Product Manager.",
+    "Unquantifyable: 1. documentation  2. teamwork involved."
+]
+
 
 function Snap(){
     return (
-        <div className="main-container snap section">
+        <div className="main-container snap section pt-20">
             <div className="">
-                <div className="w-5/6 main-content pt-24">
-                    <img src={logo} className="snap-logo object-none m-auto"></img>
+                <div className="w-5/6 main-content">
+                    <img src={logo} className="w-2/3 lg:w-1/6 h-auto object-contain m-auto py-10"></img>
                     <div className="text-container m-auto">
                         <h1 className="text-xl font-extrabold">
                             {jobInfo.companyName}
@@ -42,7 +50,8 @@ function Snap(){
                             {jobInfo.tenure}
                         </h3>
                         <ul className="pt-5 list-disc text-base font-semibold">
-                        {jobDetails.map(item => {
+                        <h2 className="text-2xl font-extrabold">Achievements</h2>
+                        {achievements.map(item => {
                             return <li>{item}</li>;
                             })}
                         </ul>

@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "./static/css/main.b0b521a6.css",
-    "main.js": "./static/js/main.8505c407.js",
+    "main.css": "./static/css/main.4b9960da.css",
+    "main.js": "./static/js/main.a4ff9288.js",
     "static/js/787.c376c5f0.chunk.js": "./static/js/787.c376c5f0.chunk.js",
     "static/media/Artboard1.png": "./static/media/Artboard1.dab88ea4cd90d2687694.png",
     "static/media/iphone-mock1.png": "./static/media/iphone-mock1.c85cce98c8c6a3115e66.png",
     "static/media/iphone-mock2.png": "./static/media/iphone-mock2.0e99542caaa541c491fa.png",
+    "static/media/cloud-background.png": "./static/media/cloud-background.d87b1f6dfdb18bcf533a.png",
     "static/media/Artboard 1.png": "./static/media/Artboard 1.5824df554b67e72b9073.png",
+    "static/media/gary.jpg": "./static/media/gary.2d7905e95f121d60504d.jpg",
     "static/media/wellchat-logo.png": "./static/media/wellchat-logo.41aabc8f165c12865aaa.png",
     "static/media/telus-logo.jpeg": "./static/media/telus-logo.8300bd2f66d64c2ac639.jpeg",
     "static/media/google-play.png": "./static/media/google-play.18a15de1b47e4a458a66.png",
     "static/media/app-store.png": "./static/media/app-store.fc519d20592cf27a3332.png",
     "static/media/snapchat-logo.png": "./static/media/snapchat-logo.a0de7a3cf9499ed10d01.png",
     "index.html": "./index.html",
-    "main.b0b521a6.css.map": "./static/css/main.b0b521a6.css.map",
-    "main.8505c407.js.map": "./static/js/main.8505c407.js.map",
+    "main.4b9960da.css.map": "./static/css/main.4b9960da.css.map",
+    "main.a4ff9288.js.map": "./static/js/main.a4ff9288.js.map",
     "787.c376c5f0.chunk.js.map": "./static/js/787.c376c5f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0b521a6.css",
-    "static/js/main.8505c407.js"
+    "static/css/main.4b9960da.css",
+    "static/js/main.a4ff9288.js"
   ]
 }

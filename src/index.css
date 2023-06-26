@@ -58,6 +58,14 @@ code {
   background-size: cover;
 }
 
+.wellchat-background {
+    background-image: url("./images/cloud-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 .main-container-telus {
   height: 100vh;
 }
