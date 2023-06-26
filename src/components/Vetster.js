@@ -19,10 +19,12 @@ const jobDetails = [
 ]
 
 const achievements = [
-    "40% reduction in production hot fixes.",
+    "100% new feature release quality.",
+    "40% reduction in product hotfixes.",
     "80% increase in test coverage, 240 new ui, component and unit tests written.",
-    "6 New Technical Test & Release tools Built.",
-    "Unquantifyable: 1. documentation  2. teamwork involved."
+    "32% improved homepage conversion.",
+    "6 new Technical Test & Release tools built.",
+    "Thorough documentation of all efforts and work."
 ]
 
 
@@ -49,7 +51,7 @@ function Vetster(){
                         <ul className="pt-5 list-disc text-base font-semibold">
                         <h2 className="text-2xl font-extrabold">Achievements</h2>
                         {achievements.map((item, index) => {
-                            return <li key={index}>{item}</li>;
+                            return <li key={index} className="mx-2">{item}</li>;
                             })}
                         </ul>
                     </div>
