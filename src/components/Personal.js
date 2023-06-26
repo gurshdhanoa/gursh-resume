@@ -16,20 +16,8 @@ function Personal() {
     <div>
       <div className="flex personal-container">
         <div className="m-auto">
-        <div className="text-5xl font-bold">
-    <Typewriter 
-        options={{
-            cursor: '',
-        }}
-        onInit={(typewriter) => {
-            typewriter
-                .typeString("Gursh Singh")
-                .start();
-        }}
-        cursor={''}
-    />
-</div>
 
+        <h1 className="font-bold text-6xl text-center">Gursh Singh</h1>
           <h2 className="font-bold" id="job-title">
             {personalInfo.jobTitle}
           </h2>

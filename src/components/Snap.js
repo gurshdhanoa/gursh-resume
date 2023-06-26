@@ -22,11 +22,12 @@ const jobDetails = [
 ]
 
 const achievements = [
-    "0 production hot fixes, last 4 quarters",
-    "Built Custom Bitmoji Avatar facial features comparison test framework. ",
-    "100% new feature quality health, last 2 quarters.",
-    "Test Engineer, Release Manager, Product Manager.",
-    "Unquantifyable: 1. documentation  2. teamwork involved."
+    "90% of quarterly KPI’s achieved in the last 3 quarters.",
+    "0 production hotfixes, last 4 quarters.",
+    "100% new feature release quality, last 2 quarters.",
+    "$500k savings in organizational optimization.",
+    "Built custom Bitmoji Avatar Builder facial features comparison test framework.",
+    "Built component testing framework for Vue Web Apps.",
 ]
 
 
@@ -52,7 +53,7 @@ function Snap(){
                         <ul className="pt-5 list-disc text-base font-semibold">
                         <h2 className="text-2xl font-extrabold">Achievements</h2>
                         {achievements.map(item => {
-                            return <li>{item}</li>;
+                            return <li className="mx-2">{item}</li>;
                             })}
                         </ul>
                     </div>
