@@ -32,10 +32,10 @@ const achievements = [
 
 function Snap(){
     return (
-        <div className="main-container snap section pt-20">
+        <div className="main-container snap section pt-10">
             <div className="">
                 <div className="w-5/6 main-content">
-                    <img src={logo} className="w-2/3 lg:w-1/6 h-auto object-contain m-auto py-10"></img>
+                    <img src={logo} className="w-2/3 lg:w-1/6 h-auto object-contain m-auto py-5"></img>
                     <div className="text-container m-auto">
                         <h1 className="text-xl font-extrabold">
                             {jobInfo.companyName}

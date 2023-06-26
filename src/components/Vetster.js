@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import logo from '../vetster-logo.png';
 
 
@@ -30,7 +31,7 @@ function Vetster(){
         <div className="main-container section bg-indigo-800">
             <div className="pt-10">
                 <div className="w-5/6 mx-auto main-content text-slate-200 ">
-                    <img src={logo} className="w-2/3 lg:w-1/6 h-auto object-contain m-auto pt-10"></img>
+                    <img src={logo} className="w-2/3 lg:w-1/6 h-auto object-contain m-auto"></img>
                     <div className="text-container m-auto">
                         <h1 className="text-xl font-extrabold">
                             {jobInfo.companyName}
