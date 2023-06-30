@@ -58,6 +58,13 @@ code {
   background-size: cover;
 }
 
+.personal-background {
+    background-image: url("./images/business-card-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: zoom;
+}
+
 .wellchat-background {
     background-image: url("./images/cloud-background.png");
     background-position: center;
