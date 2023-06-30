@@ -19,12 +19,12 @@ const jobDetails = [
 ]
 
 const achievements = [
-    "100% new feature release quality.",
+    "Enhanced product portfolio by successfully launching impactful new features",
+    "32% improvement in homepage conversion.",
     "40% reduction in product hotfixes.",
     "80% increase in test coverage, 240 new ui, component and unit tests written.",
-    "32% improved homepage conversion.",
     "6 new Technical Test & Release tools built.",
-    "Thorough documentation of all efforts and work."
+    "Thorough documentation of all efforts and work.",
 ]
 
 
