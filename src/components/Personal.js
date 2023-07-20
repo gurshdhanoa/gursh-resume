@@ -6,7 +6,7 @@ import Portrait from "../Artboard1.png";
 const personalInfo = {
   firstName: "Gursh",
   lastName: "Singh",
-  jobTitle: "Product Owner, Developer and Designer",
+  jobTitle: "QA Engineer & Product Owner",
   email: "gursh.dhanoa@gmail.com",
   phoneNumber: "647-888-7946",
 };

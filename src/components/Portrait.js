@@ -35,10 +35,10 @@ function Portrait() {
         />
       </div>
       <div className="w-5/6 m-auto text-2xl pt-10 font-bold ">
-        <p>I enjoy delivering Software Product that makes an Impact.</p>
+        <p>I enjoy delivering Software Product that makes users happy.</p>
         <br></br>
         <p>
-          Software Product's should be rapid, iterative, flexible & user-friendly.
+          Software Product's should be user-friendly, accessible & performant.
           Teams should aim to move fast and deliver quality.
         </p>
       </div>
