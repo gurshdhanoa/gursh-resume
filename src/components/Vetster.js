@@ -19,7 +19,8 @@ const jobDetails = [
 ]
 
 const achievements = [
-    "Enhanced product portfolio by successfully launching impactful new features",
+    "Constructed E2E UI Test Framework in CI/CD",
+    "(Playwright, Prism Mock Server & Stripe Mock Server in Github Actions all Dockerized.)",
     "32% improvement in homepage conversion.",
     "40% reduction in product hotfixes.",
     "80% increase in test coverage, 240 new ui, component and unit tests written.",
