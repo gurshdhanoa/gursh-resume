@@ -2,6 +2,7 @@ import React from "react";
 import Personal from "./components/Personal.js";
 import Resume from "./components/Resume.js";
 import Accordion from "./components/Accordion.js";
+import { article, title } from './blogs/gpt4vision.js'
 
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
       <div className="child">
         <Resume />
       </div>
-      <Accordion articleTitle="Coming Soon">
-        <p>This is the article content</p>
+      <Accordion articleTitle={title}>
+        <p>{article}</p>
       </Accordion>
     </div>
   );

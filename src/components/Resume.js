@@ -34,7 +34,7 @@ const snapchatAchievements = [
 
 export default function Resume() {
   return (
-    <div className=" bg-wetSand section py-10">
+    <div className=" bg-wetSand section py-10 ">
       <div class="pt-12 pb-4 px-6">
         <div class="py-4">
           <h2 class="font-bold text-4xl ">RESUME</h2>

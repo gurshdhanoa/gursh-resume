@@ -33,8 +33,8 @@ export const Accordion = ({articleTitle, children}) => {
         </div>
 
         {/* Accordion Content */}
-        <div className={`${isOpen ? "block" : "hidden"}`} id="content">
-          <div className="mt-2 p-4">{children}</div>
+        <div className={`${isOpen ? "block mt-6" : "hidden"}`} style={{ whiteSpace: "pre-line" }} id="content">
+          <div className="mt-2">{children}</div>
         </div>
       </div>
     </div>
