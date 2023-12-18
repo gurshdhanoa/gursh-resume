@@ -41,15 +41,13 @@ const snapchatAchievements = [
 export default function WellChat() {
   return (
     <div className="main-container bg-wetSand section py-10">
-      <div class="pt-12 pb-4 px-4">
+      <div class="pt-12 pb-4 px-6">
         <div class="py-4">
           <h2 class="font-bold text-4xl ">RESUME</h2>
           <div className="border-t-4 border-black mt-1"></div>
 
-
-          JOB SECTION
         {/* Vetster Job */}
-        <div class="mt-4">
+        <div class="my-2">
           <p class="font-semibold text-xl">Vetster, Software Test Engineer</p>
           <p class="text-sm">Toronto, On</p>
         </div>
@@ -74,9 +72,12 @@ export default function WellChat() {
               </li>
             ))}
           </ul>
+          <div className="border-t-2 border-black mt-2"></div>
+
         </div>
 
-        <div class="mt-8">
+        <div class="mt-4 mb-2">
+          
           <p class="font-semibold text-xl">Snapchat, Toronto — Quality Engineering Lead</p>
           <p class="text-sm">Jan 2019 - August 2023</p>
         </div>
@@ -101,6 +102,8 @@ export default function WellChat() {
               </li>
             ))}
           </ul>
+          <div className="border-t-2 border-black mt-2"></div>
+
         </div>
         </div>
       </div>
