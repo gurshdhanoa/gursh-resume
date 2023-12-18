@@ -19,7 +19,7 @@ function Portrait() {
   };
 
   return (
-    <div className="main-container h-auto max-w-lg transition-all duration-300 rounded-lg ">
+    <div className="main-container transition-all duration-300 rounded-lg ">
       <div className="pt-10 pl-9">
         <Typewriter
           options={{
