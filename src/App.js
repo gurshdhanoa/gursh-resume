@@ -8,12 +8,9 @@ import Portrait from './components/Portrait';
 
 function App () {
   return ( 
-    <div className={'container'}>
+    <div className={''}>
       <div className="child"><Personal/></div>
       <div className="child"><Wellchat/></div>
-      <div className="child"><Vetster/></div>
-      <div className="child"><Snap /></div>
-      <div className="child"><Portrait /></div>
     </div>
    );
 }

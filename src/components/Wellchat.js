@@ -3,29 +3,107 @@ import iphoneMockup from "../images/iphone-mock1.png";
 import iphoneMockup2 from "../images/iphone-mock2.png";
 import googlePlay from "../images/google-play.png";
 import appStore from "../images/app-store.png";
-import appDemo from "../images/Artboard 1.png"
-import '../index.css';
-import logo from '../images/wellchat-logo.png';
+import appDemo from "../images/Artboard 1.png";
+import "../index.css";
+import logo from "../images/wellchat-logo.png";
+
+const toolsBuilt = [
+  "Custom mock server for api service. Unlocked ci/cd and improved developer experience",
+  "Jest component web testing",
+  "Playwright UI test framework for web-testing",
+  "Maestro UI test framework for mobile-app testing",
+  "Team/Stakeholder testing process before release of new features",
+];
+
+const achievements = [
+  "Core flow E2E tests for local and ci/cd environments",
+  "100 component tests for web project",
+  "100% of new features are tested by the team and stakeholders.",
+];
+
+const snapchatToolsBuilt = [
+  "Custom pixel comparison test framework to validate Bitmoji Avatar edits in the web project.",
+  "Browserstack (cloud device test environment) integration",
+  "Jest component web testing",
+  "Test Plan",
+  "Automated weekly high-priority bug emailer",
+];
+
+const snapchatAchievements = [
+  "E2E iOS and Android mobile app tests with XCUITest and Espresso",
+  "Bitmoji Avatar Builder E2E tests after user pushes",
+  "Last 4 quarters, 0 production hotfixes, no regressions",
+  "Last 4 quarters, 0 production high/critical new feature bugs in production",
+  "Built and managed a regression testing QA team.",
+];
+
 
 export default function WellChat() {
   return (
-    <div className=" bg-green-200 wellchat-background section main-container pt-4">
-        <span className="">
-        <img src={logo} className="w-2/5 lg:w-1/6 h-auto object-contain m-auto 	"></img>
-            <p className="text-2xl font-bold text-center mt-4 text-purple-700 ">Founder, Developer & Designer</p>
-            <h2 className="text-center text-sm font-medium text-slate-900" id="job-title">Wellchat is an AI-powered wellness chatbot application targetting the most important components of wellbeing: Mental Health, Sleep and Social Skills</h2>
-        </span>
-          <div className="flex justify-center">
-            <img src={appDemo} className="m-auto w-4/5 lg:w-1/4 h-auto object-contain"/>
+    <div className="main-container bg-wetSand section py-10">
+      <div class="pt-12 pb-4 px-4">
+        <div class="py-4">
+          <h2 class="font-bold text-4xl ">RESUME</h2>
+          <div className="border-t-4 border-black mt-1"></div>
+
+
+          JOB SECTION
+        {/* Vetster Job */}
+        <div class="mt-4">
+          <p class="font-semibold text-xl">Vetster, Software Test Engineer</p>
+          <p class="text-sm">Toronto, On</p>
         </div>
-        <div className="flex justify-center space-x-3">
-        <a href="https://play.google.com/store/apps/details?id=com.boostspace.boostspace" target="_blank" rel="noopener noreferrer" className="w-2/5 lg:w-1/12 h-auto">
-                <img src={googlePlay} className="w-full h-auto object-contain"></img>
-            </a>
-            <a href="https://apps.apple.com/ca/app/wellchat/id6446705483" target="_blank" rel="noopener noreferrer" className="w-2/5 lg:w-1/12 h-auto">
-                <img src={appStore} className="w-full h-auto object-contain"></img>
-            </a>
+        <div className="border-t-2 border-black mt-2"></div>
+        <div class="">
+          <ul className="pt-1 list-disc text-base">
+            <h2 className="text font-bold">Tools Built:</h2>
+            {toolsBuilt.map((item, index) => (
+              <li key={index} className="mx-4 my-1">
+                {item}
+              </li>
+            ))}
+          </ul>
         </div>
+        <div className="border-t-2 border-black mt-2"></div>
+        <div class="">
+          <ul className="pt-1 list-disc text-base">
+            <h2 className="text font-bold">Achievements:</h2>
+            {achievements.map((item, index) => (
+              <li key={index} className="mx-4 my-1">
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div class="mt-8">
+          <p class="font-semibold text-xl">Snapchat, Toronto — Quality Engineering Lead</p>
+          <p class="text-sm">Jan 2019 - August 2023</p>
+        </div>
+        <div className="border-t-2 border-black mt-2"></div>
+        <div class="">
+          <ul className="pt-1 list-disc text-base">
+            <h2 className="text font-bold">Tools Built:</h2>
+            {snapchatToolsBuilt.map((item, index) => (
+              <li key={index} className="mx-4 my-1">
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="border-t-2 border-black mt-2"></div>
+        <div class="">
+          <ul className="pt-1 list-disc text-base">
+            <h2 className="text font-bold">Achievements:</h2>
+            {snapchatAchievements.map((item, index) => (
+              <li key={index} className="mx-4 my-1">
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+        </div>
+      </div>
     </div>
   );
 }
