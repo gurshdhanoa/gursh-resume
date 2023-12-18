@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.9a825006.css",
-    "main.js": "./static/js/main.97c82f57.js",
-    "static/js/787.c376c5f0.chunk.js": "./static/js/787.c376c5f0.chunk.js",
+    "main.css": "./static/css/main.15866e1a.css",
+    "main.js": "./static/js/main.96710c9f.js",
+    "static/js/787.05304112.chunk.js": "./static/js/787.05304112.chunk.js",
     "static/media/Artboard1.png": "./static/media/Artboard1.dab88ea4cd90d2687694.png",
     "static/media/iphone-mock1.png": "./static/media/iphone-mock1.c85cce98c8c6a3115e66.png",
     "static/media/business-card-background.png": "./static/media/business-card-background.abbba357a4bad5fd7f0c.png",
@@ -16,12 +16,12 @@
     "static/media/app-store.png": "./static/media/app-store.fc519d20592cf27a3332.png",
     "static/media/snapchat-logo.png": "./static/media/snapchat-logo.a0de7a3cf9499ed10d01.png",
     "index.html": "./index.html",
-    "main.9a825006.css.map": "./static/css/main.9a825006.css.map",
-    "main.97c82f57.js.map": "./static/js/main.97c82f57.js.map",
-    "787.c376c5f0.chunk.js.map": "./static/js/787.c376c5f0.chunk.js.map"
+    "main.15866e1a.css.map": "./static/css/main.15866e1a.css.map",
+    "main.96710c9f.js.map": "./static/js/main.96710c9f.js.map",
+    "787.05304112.chunk.js.map": "./static/js/787.05304112.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a825006.css",
-    "static/js/main.97c82f57.js"
+    "static/css/main.15866e1a.css",
+    "static/js/main.96710c9f.js"
   ]
 }
