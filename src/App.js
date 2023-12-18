@@ -8,7 +8,7 @@ import Portrait from './components/Portrait';
 
 function App () {
   return ( 
-    <div className={''}>
+    <div className="bg-wetSand">
       <div className="child"><Personal/></div>
       <div className="child"><Wellchat/></div>
     </div>
