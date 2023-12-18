@@ -1,19 +1,22 @@
-import React from 'react';
-import Personal from './components/Personal.js';
-import Wellchat from './components/Wellchat.js';
-import Vetster from './components/Vetster.js';
-import Snap from './components/Snap';
-import Telus from './components/Telus';
-import Portrait from './components/Portrait';
+import React from "react";
+import Personal from "./components/Personal.js";
+import Resume from "./components/Resume.js";
+import Accordion from "./components/Accordion.js";
 
-function App () {
-  return ( 
+function App() {
+  return (
     <div className="bg-wetSand">
-      <div className="child"><Personal/></div>
-      <div className="child"><Wellchat/></div>
+      <div className="child">
+        <Personal />
+      </div>
+      <div className="child">
+        <Resume />
+      </div>
+      <Accordion articleTitle="Coming Soon">
+        <p>This is the article content</p>
+      </Accordion>
     </div>
-   );
+  );
 }
 
 export default App;
-

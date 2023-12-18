@@ -1,11 +1,5 @@
 import React from "react";
-import iphoneMockup from "../images/iphone-mock1.png";
-import iphoneMockup2 from "../images/iphone-mock2.png";
-import googlePlay from "../images/google-play.png";
-import appStore from "../images/app-store.png";
-import appDemo from "../images/Artboard 1.png";
 import "../index.css";
-import logo from "../images/wellchat-logo.png";
 
 const toolsBuilt = [
   "Custom mock server for api service. Unlocked ci/cd and improved developer experience",
@@ -38,9 +32,9 @@ const snapchatAchievements = [
 ];
 
 
-export default function WellChat() {
+export default function Resume() {
   return (
-    <div className="main-container bg-wetSand section py-10">
+    <div className=" bg-wetSand section py-10">
       <div class="pt-12 pb-4 px-6">
         <div class="py-4">
           <h2 class="font-bold text-4xl ">RESUME</h2>

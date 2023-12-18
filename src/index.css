@@ -42,30 +42,6 @@ code {
   width: 100vw;
 }
 
-.child {
-  scroll-snap-align: start;
-  height: 100vh;
-  width: 100%;
-}
-
-.wellchat-logo{
-  
-}
-
-.snap {
-  background-color: #fff000;
-}
-
-.main-container {
-  width: 100vw;
-
-}
-
-.personal-container{
-  height: 100vh;
-  width: 100vw;
-}
-
 .image-portrait {
   background-image: url("Artboard1.png");
   background-position: center;
@@ -80,38 +56,6 @@ code {
     background-size: zoom;
 }
 
-.wellchat-background {
-    background-image: url("./images/cloud-background.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-.main-container-telus {
-  height: 100vh;
-}
-
-@media screen and (max-width: 600px) {
-  .main-content {
-    display:block;
-    padding-bottom:20px;
-    width: 100vw;
-  }
-  
-  .text-container {
-    padding-left: 20px;
-    padding-bottom: 3px;
-  }
-
-  .telus {
-    height: 100vh;
-  }
-
-  .text-container-telus{
-    margin-top:20px;
-  }
-}
 
 @media only screen and (min-width:601px){
   .main-content {
