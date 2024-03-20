@@ -1,5 +1,6 @@
 import React from "react";
 import {HashRouter as Router, Route, Routes} from "react-router-dom";
+import { useRoutes } from 'react-router-dom';
 import Newsletter from "./pages/Newsletter.js";
 import Homepage from "./pages/Homepage.js";
 
