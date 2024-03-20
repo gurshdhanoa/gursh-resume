@@ -1,16 +1,16 @@
 import React from "react";
-import {HashRouter as Router, Route, Routes} from "react-router-dom";
+import {HashRouter, Route, Routes} from "react-router-dom";
 import Newsletter from "./pages/Newsletter.js";
 import Homepage from "./pages/Homepage.js";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Newsletter />} />
         <Route path="/newsletter" element={<Newsletter />} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
