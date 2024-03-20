@@ -1,22 +1,16 @@
 import React from "react";
-import Personal from "./components/Personal.js";
-import Resume from "./components/Resume.js";
-import Accordion from "./components/Accordion.js";
-import { article, title } from './blogs/gpt4vision.js'
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import Newsletter from "./pages/Newsletter.js";
+import Homepage from "./pages/Homepage.js";
 
 function App() {
   return (
-    <div className="bg-wetSand">
-      <div className="child">
-        <Personal />
-      </div>
-      <div className="child">
-        <Resume />
-      </div>
-      <Accordion articleTitle={title}>
-        <p>{article}</p>
-      </Accordion>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/newsletter" element={<Newsletter />} />
+      </Routes>
+    </Router>
   );
 }
 

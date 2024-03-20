@@ -9,7 +9,7 @@ const personalInfo = {
   phoneNumber: "647-888-7946",
 };
 
-function Personal(className) {
+function Personal({ jobTitle, email, phoneNumber }) {
   return (
     <div className="bg-wetSand">
       <div className="flex h-72">
@@ -17,12 +17,12 @@ function Personal(className) {
           <h1 className="font-bold text-6xl text-center">Gursh Singh</h1>
 
           <h2 className="font-bold" id="job-title">
-            {personalInfo.jobTitle}
+            {jobTitle}
           </h2>
           <div className="border-t-4 border-black mt-2"></div>
 
-          <h2 id="email-text">{personalInfo.email}</h2>
-          <h2 id="phone-number">{personalInfo.phoneNumber}</h2>
+          <h2 id="email-text">{email}</h2>
+          <h2 id="phone-number">{phoneNumber}</h2>
           <div className="flex mt-1">
             <a
               href="https://github.com/gurshdhanoa"
