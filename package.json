@@ -1,7 +1,7 @@
 {
   "name": "gursh-resume",
   "version": "0.1.0",
-  "homepage": "https://gurshdhanoa.github.io/gursh-resume/",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^1.0.6",
