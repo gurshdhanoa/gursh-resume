@@ -5,7 +5,7 @@ const personalInfo = {
   firstName: "Gursh",
   lastName: "Singh",
   jobTitle: "Test Engineer & Product Owner",
-  email: "gursh.dhanoa@gmail.com",
+  email: "gursh.dev@gmail.com",
   phoneNumber: "647-888-7946",
 };
 

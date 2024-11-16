@@ -8,7 +8,7 @@ function Portrait() {
   const my_role = ["Product Owner & Engineer"];
 
   const [isEmailShown, setIsEmailShown] = useState(false);
-  const email = "gursh.dhanoa@gmail.com";
+  const email = "gursh.dev@gmail.com";
   const buttonText = isEmailShown ? email : "✉️ E-mail Me";
 
   const handleClick = () => {

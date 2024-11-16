@@ -8,7 +8,7 @@ const Homepage = () => {
     return (
         <div className="bg-wetSand">
             <div className="child">
-                <Personal email={"gursh.dhanoa@gmail.com"} jobTitle="Test Engineer & Product Owner" phoneNumber="647-888-7946" />
+                <Personal email={"gursh.dev@gmail.com"} jobTitle="Test Engineer & Product Owner" phoneNumber="647-888-7946" />
             </div>
             <div className="child">
                 <Resume />
